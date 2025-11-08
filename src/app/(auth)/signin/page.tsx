@@ -1,4 +1,4 @@
-import { SignInForm } from '@/components/auth/input';
+import { SignInForm } from '@/components/auth/signinForm';
 import { Logo } from '@/components/ui/logo';
 import Link from 'next/link';
 
@@ -11,7 +11,7 @@ export default function Page() {
         <SignInForm />
       </div>
       <div className=''>
-        <Link href='/singup' className='hover:underline'>Ainda não tenho cadastro</Link>
+        <Link href='/signup' className='hover:underline'>Ainda não tenho cadastro</Link>
       </div>
     </div>
   )
